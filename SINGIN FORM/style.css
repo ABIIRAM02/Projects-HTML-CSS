@@ -1,0 +1,201 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(97, 96, 96);
+}
+.Rightside
+{
+    height: 100%;
+    width: 40%;
+    /* margin: 50px; */
+    padding: 50px ;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 0 20px 20px 0;
+
+    /* border: 2px solid red; */
+}
+.Rightside>*
+{
+    margin: 20px;
+    padding: 2px;
+    display: block;
+}
+.Rightside>h2 
+{
+    margin-bottom: 10%;
+    letter-spacing: 8px;
+    word-spacing: 10px;
+    font-size: 25px;
+}
+.Rightside>h4 
+{
+    color: gray;
+    margin: 50px 0;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    font-size: 20px; 
+       
+}
+.Rightside>input
+{
+    font-size: 20px;
+    background: none;
+    line-height: 35px;
+    width: 90%;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.Rightside>a
+{
+    text-decoration: none;
+    color: gray;
+}
+.Rightside>button
+{
+    font-size: 18px;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    border: none;
+    background: none;
+    width: 40%;
+    margin-left: 29%;
+    background-color: rgb(73, 73, 73);
+    color: whitesmoke;
+    padding: 10px 20px ;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.forget
+{
+    text-align: right;
+    font-size: 15px;
+}
+
+.Leftside
+{
+    /* margin: 50px; */
+    padding: 50px ;
+    width: 60%;
+    text-align: center;
+    background-color: rgb(86, 199, 165);
+    /* border: 2px solid blue; */
+    color: whitesmoke;
+    font-weight: bolder;
+    text-transform: capitalize;
+    line-height: 30px;
+    font-size: 20px;
+    border-radius: 20px 0 0 20px;
+}
+.Leftside>*
+{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.Leftside>img
+{
+    height: 60%;
+    width: 50%;
+}
+span
+{
+    text-decoration: underline;
+}
+a
+{
+    cursor: pointer;
+}
+input:focus
+{
+    outline: none;
+}
+input::placeholder
+{
+    font-size: 15px;
+}
+.Rightside>hr
+{
+    height: 0;
+    padding:0px;
+    margin: 2px;
+    display: inline-block;
+    width: 13%;
+    border: none;
+    border-bottom:1px solid black;
+    margin-bottom: 2px;
+}
+.box
+{
+    position: relative;
+    top: 8%;
+    height: 80%;
+    /* border: 2px green solid; */
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 40px 20px rgb(75, 74, 74);
+    margin: 0 100px;
+    background: none;
+    border-radius: 20px;
+}
+@media screen and (max-width:767px) 
+{
+    *
+    {
+        align-items: center;
+    }
+    .Leftside
+{
+    /* margin: 50px; */
+    padding: 50px ;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(86, 199, 165);
+    /* border: 2px solid blue; */
+    color: whitesmoke;
+    font-weight: bolder;
+    text-transform: capitalize;
+    line-height: 30px;
+    font-size: 20px;
+    border-radius: 20px 0 0 20px;
+}
+    .Rightside
+{
+    height: 10%;
+    width: 100%;
+    /* margin: 50px; */
+    padding: 50px ;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 0 20px 20px 0;
+
+    /* border: 2px solid red; */
+}
+    .Rightside>*
+    {
+        margin: 20px;
+        padding: 2px;
+        display: block;
+    }
+    .box
+{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: ;
+    box-shadow: 0 0 40px 20px rgb(27, 27, 27);
+    margin: 0 20px;
+    background: none;
+    border-radius: 20px;
+}
+}
